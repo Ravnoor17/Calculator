@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="calculator-grid">
+    <div class="flex-container">
+        <div class="box">
+            <span data-previous-operand class="previous-operand" id="ans"></span>
+            <span data-current-operand class="current-operand" id="ans"></span>
+        </div>
+    </div>
+    <div class="flex-container">
+        <p data-all-clear class="span-two">C</p>
+        <p>+/-</p>
+        <p data-operation>%</p>
+        <p data-operation>+</p>
+    </div>
+    <div class="flex-container">
+        <p data-number>1</p>
+        <p data-number>2</p>
+        <p data-number>3</p>
+        <p data-operation>-</p>
+    </div>
+    <div class="flex-container">
+        <p data-number>4</p>
+        <p data-number>5</p>
+        <p data-number>6</p>
+        <p data-operation>*</p>
+    </div>
+    <div class="flex-container">
+        <p data-number>7</p>
+        <p data-number>8</p>
+        <p data-number>9</p>
+        <p data-operation>/</p>
+    </div>
+    <div class="flex-container">
+        <p>0</p>
+        <p data-number id="dot">.</p>
+        <p data-equals class="span-two">=</p>
+    </div>
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>
